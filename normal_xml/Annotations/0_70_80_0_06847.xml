@@ -1,0 +1,38 @@
+<annotation>
+  <folder>./JPEGImages</folder>
+  <filename>0_70_80_0_06847.jpg</filename>
+  <source>
+    <database>The pegasus Database</database>
+    <annotation>Pegasus 2021</annotation>
+  </source>
+  <size>
+    <width>640</width>
+    <height>512</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Bicycle</name>
+    <pose>80</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>185</xmin>
+      <ymin>280</ymin>
+      <xmax>211</xmax>
+      <ymax>318</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Car</name>
+    <pose>80</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>276</xmin>
+      <ymin>232</ymin>
+      <xmax>335</xmax>
+      <ymax>359</ymax>
+    </bndbox>
+  </object>
+</annotation>

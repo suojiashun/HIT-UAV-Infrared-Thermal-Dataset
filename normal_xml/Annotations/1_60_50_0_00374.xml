@@ -1,0 +1,38 @@
+<annotation>
+  <folder>./JPEGImages</folder>
+  <filename>1_60_50_0_00374.jpg</filename>
+  <source>
+    <database>The pegasus Database</database>
+    <annotation>Pegasus 2021</annotation>
+  </source>
+  <size>
+    <width>640</width>
+    <height>512</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Person</name>
+    <pose>50</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>421</xmin>
+      <ymin>223</ymin>
+      <xmax>436</xmax>
+      <ymax>256</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Person</name>
+    <pose>50</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>505</xmin>
+      <ymin>292</ymin>
+      <xmax>522</xmax>
+      <ymax>319</ymax>
+    </bndbox>
+  </object>
+</annotation>

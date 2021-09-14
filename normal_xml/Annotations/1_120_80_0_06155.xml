@@ -1,0 +1,26 @@
+<annotation>
+  <folder>./JPEGImages</folder>
+  <filename>1_120_80_0_06155.jpg</filename>
+  <source>
+    <database>The pegasus Database</database>
+    <annotation>Pegasus 2021</annotation>
+  </source>
+  <size>
+    <width>640</width>
+    <height>512</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Car</name>
+    <pose>80</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>443</xmin>
+      <ymin>0</ymin>
+      <xmax>480</xmax>
+      <ymax>40</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+  <folder>./JPEGImages</folder>
+  <filename>0_130_30_0_05555.jpg</filename>
+  <source>
+    <database>The pegasus Database</database>
+    <annotation>Pegasus 2021</annotation>
+  </source>
+  <size>
+    <width>640</width>
+    <height>512</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>OtherVehicle</name>
+    <pose>30</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>372</xmin>
+      <ymin>48</ymin>
+      <xmax>385</xmax>
+      <ymax>72</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Car</name>
+    <pose>30</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>276</xmin>
+      <ymin>5</ymin>
+      <xmax>284</xmax>
+      <ymax>18</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Car</name>
+    <pose>30</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>355</xmin>
+      <ymin>52</ymin>
+      <xmax>363</xmax>
+      <ymax>67</ymax>
+    </bndbox>
+  </object>
+</annotation>

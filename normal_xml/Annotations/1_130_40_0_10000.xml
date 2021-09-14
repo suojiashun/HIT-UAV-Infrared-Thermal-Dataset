@@ -1,0 +1,14 @@
+<annotation>
+  <folder>./JPEGImages</folder>
+  <filename>1_130_40_0_10000.jpg</filename>
+  <source>
+    <database>The pegasus Database</database>
+    <annotation>Pegasus 2021</annotation>
+  </source>
+  <size>
+    <width>640</width>
+    <height>512</height>
+    <depth>1</depth>
+  </size>
+  <segmented>0</segmented>
+</annotation>
