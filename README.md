@@ -30,5 +30,8 @@ For each annotation method, we provide the XML and JSON label file to help user 
 <img src="./0_readme_images/6.jpg" width="300">
 </div>
 
+## Paper
+https://doi.org/10.48550/arXiv.2204.03245
+
 ## Cite
 Jiashun Suo, Tianyi Wang, Xingzhou Zhang, Haiyang Chen, Wei Zhou, Weisong Shi. "HIT-UAV: A High-altitude Infrared Thermal Dataset for Unmanned Aerial Vehicles." arXiv preprint arXiv:2204.03245 (2022).
