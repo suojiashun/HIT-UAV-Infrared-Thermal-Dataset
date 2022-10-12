@@ -28,6 +28,7 @@ class LabelTransformer(object):
         """
         Prepare the JSON files.
         Returns:
+
         """
         annoFiles = ['train', 'val', 'test']
         for annoFile in annoFiles:
@@ -41,7 +42,9 @@ class LabelTransformer(object):
         Args:
             obb (list): oriented bbox
             flag (str): voc or coco, by default voc
+
         Returns:
+
         """
         cx = float(obb[0])
         cy = float(obb[1])
@@ -84,6 +87,7 @@ class LabelTransformer(object):
         """
         Main function to start transform the Pegasus's file to voc format.
         Returns:
+
         """
         # init folders in VOC format
         vocAnnotationFolder = Path(self.outFolder).joinpath('Annotations')
@@ -194,6 +198,7 @@ class LabelTransformer(object):
         """
         Main function to transform the Pegasus's files to coco format.
         Returns:
+
         """
         # init folders in COCO format
         annotationFolder = Path(self.outFolder).joinpath('annotations')
@@ -259,5 +264,5 @@ class LabelTransformer(object):
 
 if __name__ == '__main__':
     labelTransformer = LabelTransformer()
-    # labelTransformer.toVOC()
+    labelTransformer.toVOC()
     # labelTransformer.toCOCO()

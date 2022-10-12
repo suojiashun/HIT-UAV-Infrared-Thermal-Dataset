@@ -1,0 +1,5 @@
+Person
+Car
+Bicycle
+OtherVehicle
+DontCare

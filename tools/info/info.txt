@@ -1,0 +1,6 @@
+year: 2020
+version: 1.0
+description: PegasusDrone
+contributor: Jiashun Suo, Tianyi Wang
+url: xxxxxxxxxxxx
+data_created: 20201212
