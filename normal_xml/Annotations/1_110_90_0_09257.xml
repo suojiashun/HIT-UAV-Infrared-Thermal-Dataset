@@ -98,7 +98,7 @@
   <object>
     <name>Bicycle</name>
     <pose>90</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>500</xmin>

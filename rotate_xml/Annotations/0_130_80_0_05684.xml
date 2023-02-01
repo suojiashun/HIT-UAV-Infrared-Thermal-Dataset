@@ -29,7 +29,7 @@
     <type>robndbox</type>
     <name>OtherVehicle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>261.9847</cx>

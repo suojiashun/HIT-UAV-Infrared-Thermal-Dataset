@@ -197,7 +197,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>41.3313</cx>
@@ -211,7 +211,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>13.8313</cx>
@@ -225,7 +225,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>112.3313</cx>
@@ -239,7 +239,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>143.3313</cx>
@@ -253,7 +253,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>172.3313</cx>
@@ -267,7 +267,7 @@
     <type>robndbox</type>
     <name>Bicycle</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>200.3313</cx>

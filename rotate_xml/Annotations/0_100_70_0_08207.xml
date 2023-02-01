@@ -197,7 +197,7 @@
     <type>robndbox</type>
     <name>Car</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>625.8056</cx>
@@ -225,7 +225,7 @@
     <type>robndbox</type>
     <name>Car</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>335.7229</cx>
@@ -239,7 +239,7 @@
     <type>robndbox</type>
     <name>Car</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>483.9074</cx>
@@ -253,7 +253,7 @@
     <type>robndbox</type>
     <name>Car</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>580.6727</cx>

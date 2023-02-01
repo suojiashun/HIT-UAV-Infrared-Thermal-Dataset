@@ -98,7 +98,7 @@
   <object>
     <name>Person</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>1</difficult>
     <bndbox>
       <xmin>341</xmin>
@@ -290,7 +290,7 @@
   <object>
     <name>Person</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>1</difficult>
     <bndbox>
       <xmin>0</xmin>

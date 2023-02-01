@@ -314,7 +314,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>585</xmin>
@@ -326,7 +326,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>554</xmin>

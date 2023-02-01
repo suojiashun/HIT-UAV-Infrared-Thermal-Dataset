@@ -14,7 +14,7 @@
   <object>
     <name>Car</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>225</xmin>
@@ -26,7 +26,7 @@
   <object>
     <name>Car</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>550</xmin>

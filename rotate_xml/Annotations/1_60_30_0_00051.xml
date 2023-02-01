@@ -295,7 +295,7 @@
     <type>robndbox</type>
     <name>Person</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>537.5</cx>
@@ -309,7 +309,7 @@
     <type>robndbox</type>
     <name>Person</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>561.4839</cx>
@@ -323,7 +323,7 @@
     <type>robndbox</type>
     <name>Person</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <robndbox>
       <cx>591.673</cx>

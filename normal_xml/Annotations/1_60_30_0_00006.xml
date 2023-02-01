@@ -50,7 +50,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>304</xmin>
@@ -326,7 +326,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>531</xmin>
@@ -338,7 +338,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>515</xmin>
@@ -350,7 +350,7 @@
   <object>
     <name>Person</name>
     <pose>30</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>508</xmin>

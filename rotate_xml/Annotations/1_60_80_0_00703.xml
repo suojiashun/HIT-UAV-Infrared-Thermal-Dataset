@@ -267,7 +267,7 @@
     <type>robndbox</type>
     <name>Person</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>1</difficult>
     <robndbox>
       <cx>437.3554</cx>

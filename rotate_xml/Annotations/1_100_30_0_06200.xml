@@ -127,7 +127,7 @@
     <type>robndbox</type>
     <name>Car</name>
     <pose>Unspecified</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>1</difficult>
     <robndbox>
       <cx>147.7048</cx>

@@ -14,7 +14,7 @@
   <object>
     <name>Car</name>
     <pose>70</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>268</xmin>
@@ -74,7 +74,7 @@
   <object>
     <name>Car</name>
     <pose>70</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>572</xmin>
@@ -86,7 +86,7 @@
   <object>
     <name>Car</name>
     <pose>70</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>589</xmin>
@@ -98,7 +98,7 @@
   <object>
     <name>Car</name>
     <pose>70</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>608</xmin>
@@ -110,7 +110,7 @@
   <object>
     <name>Car</name>
     <pose>70</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>629</xmin>

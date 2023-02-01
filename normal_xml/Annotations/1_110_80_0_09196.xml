@@ -86,7 +86,7 @@
   <object>
     <name>Bicycle</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>85</xmin>
@@ -98,7 +98,7 @@
   <object>
     <name>Bicycle</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>0</xmin>
@@ -110,7 +110,7 @@
   <object>
     <name>Bicycle</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>0</xmin>
@@ -122,7 +122,7 @@
   <object>
     <name>Bicycle</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>7</xmin>
@@ -134,7 +134,7 @@
   <object>
     <name>Bicycle</name>
     <pose>80</pose>
-    <truncated>0</truncated>
+    <truncated>1</truncated>
     <difficult>0</difficult>
     <bndbox>
       <xmin>20</xmin>
