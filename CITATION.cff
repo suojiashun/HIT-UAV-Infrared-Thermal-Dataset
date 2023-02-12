@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Suo
+    given-names: Jiashun
+    orcid: https://orcid.org/0000-0002-5360-353X
+title: "HIT-UAV: A High-altitude Infrared Thermal Dataset for Unmanned Aerial Vehicles"
+version: 1.2.0
+doi: 10.5281/zenodo.7633120
+date-released: 2021-09-14
