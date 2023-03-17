@@ -19,7 +19,7 @@ For each annotation method, we provide the XML and JSON label file to help user 
 - *normal_xml* folder: record standard bounding boxes using xml file.
 - *normal_json* folder: record standard bounding boxes using json file.
 - *rotate_xml* folder: record oriented bounding boxes using xml file.
-- *rotate_json* folder: record oriented bounding boxes using xml file.
+- *rotate_json* folder: record oriented bounding boxes using json file.
 
 ## Sample images
 
