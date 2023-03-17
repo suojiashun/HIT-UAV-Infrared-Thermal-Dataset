@@ -4,10 +4,10 @@ The HIT-UAV contains 2898 infrared thermal images extracted from 43470 frames, c
 
 ## Annotation
 The HIT-UAV provide two bounding box type, oriented and standard.
-The oriented annotation can decrease the overlap of bounding boxes to improve detection algorithms performance.  
+The oriented annotation can decrease the overlap of bounding boxes to improve the performance of detection algorithms.  
 
-- standard bounding box record format: $[xc, yc, w, h]$.
-- oriented bounding box record format: $[xc, yc, w, h, \theta]$, where $\theta$ denotes the oriented angle from the horizontal direction of the standard bounding box.
+- Standard bounding box record format: $[xc, yc, w, h]$.
+- Oriented bounding box record format: $[xc, yc, w, h, \theta]$, where $\theta$ denotes the oriented angle from the horizontal direction of the standard bounding box.
 
 <div align=center>
 <img src="./0_readme_images/fig_bbox.jpg" width="640">
