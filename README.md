@@ -38,7 +38,7 @@ Jiashun Suo, Tianyi Wang, Xingzhou Zhang, Haiyang Chen, Wei Zhou, and Weisong Sh
 or
 ```
 @article{suo2022hit,  
-    title   = {HIT-UAV: A High-altitude Infrared Thermal Dataset   for Unmanned Aerial Vehicles},  
+    title   = {HIT-UAV: A High-altitude Infrared Thermal Dataset for Unmanned Aerial Vehicles},  
     author  = {Suo, Jiashun and Wang, Tianyi and Zhang, Xingzhou and Chen, Haiyang and Zhou, Wei and Shi, Weisong},  
     journal = {arXiv preprint arXiv:2204.03245},  
     year    = {2022}  
