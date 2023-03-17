@@ -10,7 +10,7 @@ The oriented annotation can decrease the overlap of bounding boxes to improve th
 - Oriented bounding box record format: $[xc, yc, w, h, \theta]$, where $\theta$ denotes the oriented angle from the horizontal direction of the standard bounding box.
 
 <div align=center>
-<img src="./0_readme_images/fig_bbox.jpg" width="720">
+<img src="./0_readme_images/fig_bbox.jpg" width="640">
 
 </div>
 
@@ -25,7 +25,7 @@ For each annotation method, we provide the XML and JSON label file to help user 
 
 The detection samples using YOLOv4.
 <div align=center>
-<img src="./0_readme_images/fig_sample_result.jpg" width="640">
+<img src="./0_readme_images/fig_sample_result.jpg" width="750">
 </div>
 
 ## Paper
