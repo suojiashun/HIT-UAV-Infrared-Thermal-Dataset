@@ -29,18 +29,21 @@ The detection samples using YOLOv4.
 </div>
 
 ## Paper
-https://doi.org/10.48550/arXiv.2204.03245
+https://doi.org/10.1038/s41597-023-02066-6
 
 ## Cite
 ```
-Jiashun Suo, Tianyi Wang, Xingzhou Zhang, Haiyang Chen, Wei Zhou, and Weisong Shi. "HIT-UAV: A High-altitude Infrared Thermal Dataset for Unmanned Aerial Vehicles." arXiv preprint arXiv:2204.03245 (2022).
+Jiashun Suo, Tianyi Wang, Xingzhou Zhang, Haiyang Chen, Wei Zhou and Weisong Shi. HIT-UAV: A high-altitude infrared thermal dataset for Unmanned Aerial Vehicle-based object detection. Scientific Data 10, 227 (2023).
 ```
 or
 ```
 @article{suo2022hit,  
-    title   = {HIT-UAV: A High-altitude Infrared Thermal Dataset for Unmanned Aerial Vehicles},  
-    author  = {Suo, Jiashun and Wang, Tianyi and Zhang, Xingzhou and Chen, Haiyang and Zhou, Wei and Shi, Weisong},  
-    journal = {arXiv preprint arXiv:2204.03245},  
-    year    = {2022}  
+    title       = {HIT-UAV: A high-altitude infrared thermal dataset for Unmanned Aerial Vehicle-based object detection},  
+    author      = {Suo, Jiashun and Wang, Tianyi and Zhang, Xingzhou and Chen, Haiyang and Zhou, Wei and Shi, Weisong},  
+    journal     = {Scientific Data},  
+    volume      = {10},
+    pages       = {227},
+    year        = {2023},
+    publisher   = {Nature Publishing Group UK London}
 }
 ```
