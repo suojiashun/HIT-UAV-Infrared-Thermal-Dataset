@@ -6,17 +6,21 @@ import shutil
 
 
 class LabelTransformer(object):
-    def __init__(self, rootFolder='../utils/Pegasus', outFolder='output', outType='voc', copyIMG=True):
+    def __init__(self, rootFolder='../../rotate_json', outFolder='output', outType='voc', copyIMG=True):
         """
         Transform the Pegasus's annotated file to voc/coco format.
         Args:
-            rootFolder (str): The folder of the Pegasus dataset
+            rootFolder (str): The folder of the Pegasus dataset, e.g. rotate_json in this repository.
+                It needs the original oriented-box JSON files, so normal_json will not work.
             outFolder (str): The folder to place the transformed voc/coco dataset
             outType (str): voc or coco, by default: voc
             copyIMG (bool): copy the image to the output folder if it is true
         """
         self.jsonFolder = Path(rootFolder).joinpath('annotations')
         self.imgFolder = Path(rootFolder).joinpath('images')
+        # this repository keeps the images in rootFolder/train, rootFolder/val and rootFolder/test
+        if not self.imgFolder.exists():
+            self.imgFolder = Path(rootFolder)
         self.outFolder = outFolder
         self.outType = outType
         self.copyIMG = copyIMG
@@ -110,6 +114,10 @@ class LabelTransformer(object):
 
             with open(value, 'r') as f:
                 jsonFile = json.load(fp=f)
+
+            if 'annotations' not in jsonFile:
+                raise KeyError("[!] %s has no 'annotations' key. Use the oriented-box JSON files "
+                               "in rotate_json; normal_json is already converted." % str(value))
 
             totalImgs = len(jsonFile['images'])
 
@@ -245,7 +253,7 @@ class LabelTransformer(object):
                 tmp['name'] = categoryAnno['name']
                 cocoJson['categories'].append(tmp)
 
-            cocoJson['annotation'] = []
+            cocoJson['annotations'] = []
 
             for anno in jsonFile['annotations']:
                 tmp = {}
@@ -256,7 +264,7 @@ class LabelTransformer(object):
                 tmp['bbox'] = [xLeft, yLeft, w, h]
                 tmp['category_id'] = anno['category_id']
                 tmp['id'] = anno['id']
-                cocoJson['annotation'].append(tmp)
+                cocoJson['annotations'].append(tmp)
 
             with open(annotationFolder.joinpath('instances_%s.json' % key), 'w') as f:
                 json.dump(cocoJson, f)
